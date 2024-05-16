@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Dancing+Script:wght@400..700&family=Jersey+15+Charted&family=Rubik+Bubbles&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    /* background-color: aqua; */
+    background-image: linear-gradient(180deg, rgb(141, 64, 13),rgb(212, 125, 67));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+
+#ContainerSignup{
+    height: 70vh;
+    width: 45vh;
+    background-color: black;
+    box-shadow: 2px 2px 2px black;
+    overflow: hidden;
+}
+#Signupcontainer{
+    height: 70vh;
+    width: 80vh;
+    background-color:rgb(120, 49, 1);
+    /* background-image: linear-gradient(rgb(141, 64, 13),rgb(212, 125, 67)); */
+    box-shadow: 2px 2px 2px black;
+  
+}
+#signup{
+    padding-top: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.5vw;
+    font-family: "Dancing Script", cursive;
+}
+.signupdiv{
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.inp{
+    height: 1.5vw;
+    width: 80%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: black;
+    text-align: center;
+    border-bottom: 1px solid white;
+    font-size: 1.5vh;
+    letter-spacing: 0.2vw;
+    box-shadow: 1px 1px 1px black;
+}
+.inp::placeholder{
+    color: black;
+    font-size: 1.5vh;
+}
+#btn{
+    width: 55%;
+    height: 2.5vw;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    /* background-image: linear-gradient(45deg,rgb(45, 27, 3),rgb(186, 131, 21)); */
+    background-color: black;
+    color: white;
+    font-size: 1.2vw;
+    letter-spacing: 0.2vw;
+    font-weight: bold;
+    cursor: pointer;
+    animation: glow 0.5s infinite ease-out alternate;
+}
+/* #btn:hover{
+    background-image:linear-gradient(green);
+} */
+
+@keyframes glow{
+    0%{
+        border-color: #bc7d08;
+        box-shadow: 0 0 5px rgba(12, 10, 1, 0.2),
+                    inset 0 0 5px rgba(234, 162, 18, 0.1);
+      }
+       100%{
+        border-color: rgb(87, 57, 9);
+        box-shadow: 0 0 20px rgba(204, 153, 35, 0.6),
+                    inset 0 0 10px rgba(242, 221, 138, 0.4);
+      }
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+.opt{
+    background-color: black;
+    color: white;
+}
+#vd{
+    width: 125%;
+}
+
+a{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}

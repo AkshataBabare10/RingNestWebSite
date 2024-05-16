@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/RingNestProject/css/cart.css">
+    <link rel="stylesheet" href="/RingNestProject/css/nav.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <ul class="mainlist1">
+          <li class="li1"><a href="/RingNestProject/html/home.html">Home</li></a>
+          <li class="li1"><a href="/RingNestProject/html/about.html">About</li></a>
+          <li class="li1"><a href="#"><i class="fa-regular fa-heart li1" ></i></a></li>
+          <li class="li1"><a href="#"><i class="fa-solid fa-cart-shopping li1"></i></a>
+          <ul class="sublist">
+            <li class="li2">1</li>
+          </ul>
+          </li>
+        </ul>
+      <ul class="mainlist2">
+        <li class="li3"><a href="/RingNestProject/index.html">Logout</li></a> 
+      </ul>
+      </nav>
+       
+      
+        <div class="cartContainer">
+                   <div class="cartImageContainer">
+                        <img class="cartImage" src="/RingNestProject/assets/images/blue6.jpeg" alt="">
+                   </div>
+                   <div class="cartInfoContainer">
+                      <div class="productName">
+                          <span class="pName">The Moirai Ring</span>
+                               <div class="pNamesec2">
+                                   <div class="incDec">
+                                        <input class="inps" type="button" value="-">
+                                        <input class="inps"  value="1" readonly>
+                                        <input class="inps" type="button" value="+">
+                                   </div>
+                                        <i class="fa-solid fa-trash fa-fade"></i>
+                                </div>
+                        </div>
+                        <div class="productDetails">
+                             <h1 class="pdel">Size: <span>4</span></h1>
+                             <h1 class="pdel">Actual Price: <span>37,705Rs</span></h1>
+                             <h1 class="pdel">Disccount Price: <span>36,562Rs</span></h1>
+                             <h1 class="pdel">Save Rs <span>1,143</span></h1>
+                        </div>
+                    </div>
+                </div>
+
+      <div class="cartContainer">
+        <div class="cartImageContainer">
+            <img class="cartImage" src="/RingNestProject/assets/images/dimond9.jpeg" alt="">
+        </div>
+        <div class="cartInfoContainer">
+            <div class="productName">
+                <span class="pName">The Aura Ring</span>
+                <div class="pNamesec2">
+                    <div class="incDec">
+                        <input class="inps" type="button" value="-">
+                        <input class="inps"  value="1" readonly>
+                        <input class="inps" type="button" value="+">
+                    </div>
+                    <i class="fa-solid fa-trash fa-fade"></i>
+                </div>
+            </div>
+            <div class="productDetails">
+                <h1 class="pdel">Size: <span>7</span></h1>
+                <h1 class="pdel">Actual Price: <span>93,616Rs</span></h1>
+                <h1 class="pdel">Disccount Price: <span>90,359Rs</span></h1>
+                <h1 class="pdel">Save Rs <span>3,257</span></h1>
+            </div>
+        </div>
+      </div>
+
+      <div class="cartContainer">
+        <div class="cartImageContainer">
+            <img class="cartImage" src="/RingNestProject/assets/images/blue7.jpeg" alt="">
+        </div>
+        <div class="cartInfoContainer">
+            <div class="productName">
+                <span class="pName">Diamond Ring</span>
+                <div class="pNamesec2">
+                    <div class="incDec">
+                        <input class="inps" type="button" value="-">
+                        <input class="inps"  value="1" readonly>
+                        <input class="inps" type="button" value="+">
+                    </div>
+                    <i class="fa-solid fa-trash fa-fade"></i>
+                </div>
+            </div>
+            <div class="productDetails">
+                <h1 class="pdel">Size: <span>6</span></h1>
+                <h1 class="pdel">Actual Price: <span>76,806Rs</span></h1>
+                <h1 class="pdel">Disccount Price: <span>74,284Rs</span></h1>
+                <h1 class="pdel">Save Rs <span>2,522</span></h1>
+            </div>
+        </div>
+    </div> 
+
+    <div class="couponcode">
+        Coupon Code:
+        <input type="text" placeholder="Coupon Code" id="coupancodeinp" minlength="6" maxlength="6">
+    </div>
+    <div id="checkoutContainer">
+        <div id="checkoutInfo">
+          
+            <h1 class="checkoutText">No Of Products: <span class="inpnumber">2</span>
+            </h1>
+            <h1 class="checkoutText">Total Cost: <span class="inpnumber">201,205</span>Rs</h1>
+        </div>
+       
+            <input type="button" value="Pay" class="Paybutton">
+        
+    </div>
+
+      <footer>
+        <ul class="footerList">
+            <li class="fli">
+                <a href="#" class="fli">
+                    <i class="fa-brands fa-facebook"></i> 
+                    Facebook
+                </a>
+            </li>
+            <li class="fli">
+                <a href="#" class="fli">
+                    <i class="fa-brands fa-instagram"></i>
+                   Instagram
+                </a>
+            </li>
+            <li class="fli">
+                <a href="#" class="fli">
+                    <i class="fa-brands fa-twitter"></i>
+                   Twitter
+                </a>
+            </li>
+        </ul>
+        <span class="copy">
+            <i class="fa-solid fa-copyright"></i>
+            Copyright belongs students of Jspiders so be ready to get Sued.
+        </span>
+      </footer>
+
+      <div id="top">
+      <a href="#">
+      
+            <i class="fa-solid fa-arrow-up"></i>
+      
+      </a>
+    </div>
+
+      <div class="container">
+        <div class="row">
+            <div class="total">
+                <label class="labeltext"> Total (
+                    <span class="itemcounts">3 Items</span> ) :
+                    <span class="tamount">Rs 201,205 </span>
+                </label>
+            </div>
+            <div class="btnsection">
+                <button class="btn">Proceed to Checkout</button>
+            </div>
+        </div>
+      </div>
+</body>
+</html>
